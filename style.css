@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in/Sign Up</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+    <form>
+        <div class="photo"><img src="c:\Users\Acer\Pictures\anime.jpg" alt="photo"></div>
+        <h2>Login</h2>
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="password">Enter your password</label>
+        <input type="password" id="password" name="password">
+
+        <button type="submit">Login</button>
+
+        <div class="option">
+            <a href="#">Forgot password</a><br>
+            <a href="Sign Up.html">Don't have an account? Sign up</a>
+        </div>
+    </form>
+</body>
+</html>
